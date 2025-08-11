@@ -1,0 +1,10 @@
+AI Validation + NFT-based certificates + Hybrid Blockchain
+
+University → [Send NFT Cert: CertificateID, StudentName, IssuerID, Date...] → Email
+↓  
+Student → [Logs in via Phone Number/ Email] → Uploads Token(CertificateID)+ Certificate Image(NFT Cert)
+↓  
+AI Engine → [Checks Name/School + Detects Forgery] → Valid? → Records on Blockchain  
+↓  
+Employer → [Queries Blockchain] → Gets Trusted Verification  
+
