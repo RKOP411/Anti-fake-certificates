@@ -8,3 +8,25 @@ AI Engine → [Checks Name/School + Detects Forgery] → Valid? → Records on B
 ↓  
 Employer → [Queries Blockchain] → Gets Trusted Verification  
 
+
+
+
+
+Architecture
+/anti-fake-certificates  
+├── /contracts         # Smart Contracts (Solidity)  
+│   ├── CertificateNFT.sol  
+│   └── Verification.sol  
+├── /frontend          # Web App (React/Flutter)  
+│   ├── src/  
+│   └── public/  
+├── /backend           # AI Validation & APIs  
+│   ├── ai_validation.py  
+│   └── server.js  
+├── /docs              # Research Paper, Diagrams  
+│   ├── Proposal.pdf  
+│   └── Architecture.png  
+├── /tests             # Unit/Integration Tests  
+├── .env.example       # Template for environment variables  
+├── README.md          # Project Overview  
+└── LICENSE            # MIT/GNU  
