@@ -1,32 +1,13 @@
-AI Validation + NFT-based certificates + Hybrid Blockchain
+Proposal: Decentralized Certificate Verification Using NFTs Cert and AI ai_validation
 
-University → [Send NFT Cert: CertificateID, StudentName, IssuerID, Date...] → Email
-↓  
-Student → [Logs in via Phone Number/ Email] → Uploads Token(CertificateID)+ Certificate Image(NFT Cert)
-↓  
-AI Engine → [Checks Name/School + Detects Forgery] → Valid? → Records on Blockchain  
-↓  
-Employer → [Queries Blockchain] → Gets Trusted Verification  
+1. Background
+In order to prevent fake academic certificates and directly verify them 
+without a third party, we propose a decentralized system that utilizes 
+NFTs for certificate issuance and AI for validation. This system will 
+allow universities to issue certificates as NFTs, which can be verified 
+by employers directly on the blockchain.
 
-
-
-
-
-Architecture
-/anti-fake-certificates  
-├── /contracts         # Smart Contracts (Solidity)  
-│   ├── CertificateNFT.sol  
-│   └── Verification.sol  
-├── /frontend          # Web App (React/Flutter)  
-│   ├── src/  
-│   └── public/  
-├── /backend           # AI Validation & APIs  
-│   ├── ai_validation.py  
-│   └── server.js  
-├── /docs              # Research Paper, Diagrams  
-│   ├── Proposal.pdf  
-│   └── Architecture.png  
-├── /tests             # Unit/Integration Tests  
-├── .env.example       # Template for environment variables  
-├── README.md          # Project Overview  
-└── LICENSE            # MIT/GNU  
+Also, current existing solutions (e.g., Blockcerts) lack real-time AI 
+fraud detection and real identity verification. Therefore, we aim to 
+integrate advanced AI algorithms to enhance the verification process 
+and ensure the authenticity of the certificates.

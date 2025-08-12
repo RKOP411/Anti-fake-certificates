@@ -1,0 +1,32 @@
+AI Validation + NFT-based certificates + Hybrid Blockchain
+
+University → [Send NFT Cert: CertificateID, StudentName, IssuerID, Date...] → Email
+↓  
+Student → [Logs in via Phone Number/ Email] → Uploads Token(CertificateID)+ Certificate Image(NFT Cert)
+↓  
+AI Engine → [Checks Name/School + Detects Forgery] → Valid? → Records on Blockchain  
+↓  
+Employer → [Queries Blockchain] → Gets Trusted Verification  
+
+
+
+
+
+Architecture
+/anti-fake-certificates  
+├── /contracts         # Smart Contracts (Solidity)  
+│   ├── CertificateNFT.sol  
+│   └── Verification.sol  
+├── /frontend          # Web App (React/Flutter)  
+│   ├── src/  
+│   └── public/  
+├── /backend           # AI Validation & APIs  
+│   ├── ai_validation.py  
+│   └── server.js  
+├── /docs              # Research Paper, Diagrams  
+│   ├── Proposal.pdf  
+│   └── Architecture.png  
+├── /tests             # Unit/Integration Tests  
+├── .env.example       # Template for environment variables  
+├── README.md          # Project Overview  
+└── LICENSE            # MIT/GNU  
