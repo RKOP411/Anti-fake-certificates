@@ -17,7 +17,7 @@ Architecture
 ├── /contracts         # Smart Contracts (Solidity)  
 │   ├── CertificateNFT.sol  
 │   └── Verification.sol  
-├── /frontend          # Web App (React/Flutter)  
+├── /frontend          # Web App (React/Vue)  
 │   ├── src/  
 │   └── public/  
 ├── /backend           # AI Validation & APIs  
@@ -25,7 +25,7 @@ Architecture
 │   └── server.js  
 ├── /docs              # Research Paper, Diagrams  
 │   ├── Proposal.pdf  
-│   └── Architecture.png  
+│   └── Architecture.txt  
 ├── /tests             # Unit/Integration Tests  
 ├── .env.example       # Template for environment variables  
 ├── README.md          # Project Overview  
